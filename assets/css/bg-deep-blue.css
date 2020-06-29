@@ -1,0 +1,26 @@
+.bg-dark-light {
+    background: #050a43 !important;
+}
+
+.bg-one-dark {
+    background: #040a3d !important;
+}
+#hero-section {
+    background: #050b43 url(../img/hero-bg-shape.png) no-repeat;
+}
+.single-service-wrap{
+    background: #040a3c !important;
+}
+.testimonial-item{
+    background: #040a3c;
+    border: 2px solid #161b49;
+}
+#skill-section .play-btn{
+    color: #040a3c;
+}
+.input-group input, .input-group textarea{
+    background: #050b43;
+}
+.google-map{
+    border: 10px solid #050d59;
+}

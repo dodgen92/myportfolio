@@ -1,0 +1,60 @@
+.bg-dark-light {
+    background: #000000 !important;
+    /* background: url('../img/bg-black-shape.jpg') repeat !important; */
+}
+
+.bg-one-dark {
+    background: #040404 !important;
+}
+#hero-section {
+    background: url(../img/hero-bg-shape.png) no-repeat;
+    position: relative;
+}
+#hero-section::before{
+    content: "";
+    background: url('../img/p-10.png') no-repeat #030303;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-size: contain;
+    background-position: bottom right;
+}
+.about-info{
+    border-color: #0b0d12;
+}
+.newsletter-row{
+    background: #000000;
+}
+.single-service-wrap{
+    background: #040404;
+    border-color: #191919;
+}
+.single-service-wrap:hover{
+    border-bottom-color: #fabf15;
+}
+/* .user-avatar:before {
+    width: 82px;
+    height: 82px;
+} */
+.testimonial-item{
+    background: #040404;
+    border-color: #191919;
+}
+.testimonial-content-wrap .owl-item{
+    padding: 10px 0;
+}
+#skill-section .play-btn{
+    color: #0d1118;
+}
+.input-group input, .input-group textarea{
+    background: #000000;
+}
+.google-map{
+    border: 10px solid #192636;
+}
+
+  
+  

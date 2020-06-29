@@ -1,0 +1,56 @@
+.bg-dark-light {
+    background: #161d26 !important;
+    background: url('../img/bg-black-shape.jpg') repeat !important;
+}
+
+.bg-one-dark {
+    background: #0d1118 !important;
+}
+
+#hero-section {
+    background: #151c25 url(../img/hero-bg-shape.png) no-repeat;
+    padding-top: 340px;
+    padding-bottom: 240px;
+}
+
+.about-info, .newsletter-row {
+    background: url('../img/bg-black-shape.jpg') repeat !important;
+    box-shadow: 0px 0px 2px 0px rgba(139, 139, 139, 0.09);
+    border: 0;
+}
+
+.single-service-wrap {
+    background: url('../img/bg-black-shape-1.jpg') repeat;
+    box-shadow: 0px 0px 2px 0px rgba(139, 139, 139, 0.09);
+}
+
+.single-service-wrap:hover {
+    background: url('../img/bg-black-shape.jpg') repeat;
+}
+
+.user-avatar:before {
+    width: 82px;
+    height: 82px;
+}
+
+.testimonial-item {
+    background: url('../img/bg-black-shape-1.jpg') repeat;
+    box-shadow: 0px 0px 2px 0px rgba(139, 139, 139, 0.09);
+    border: 0;
+}
+
+.testimonial-content-wrap .owl-item {
+    padding: 10px 0;
+}
+
+#skill-section .play-btn {
+    color: #0d1118;
+}
+
+.input-group input, .input-group textarea {
+    background: #121621;
+}
+
+.google-map {
+    border: 10px solid #192636;
+}

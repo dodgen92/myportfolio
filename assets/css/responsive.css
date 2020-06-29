@@ -1,0 +1,212 @@
+ /*
+======================================== 
+* Template Name: ONUC
+* Author: WPEqual
+* File Name: Responsive Style
+========================================
+*/
+
+ /* Landscape phones and down */
+
+ @media (max-width: 480px) {
+     .comment-layout .media-body .reply-comment {
+         position: relative;
+         right: 0;
+         top: 0;
+     }
+     .comment-layout .media-body .media {
+         display: none;
+     }
+     .about-info-wrap {
+         padding: 10px!important;
+         margin-top: 30px;
+     }
+     .about-info {
+         padding: 30px!important;
+     }
+     #story-section .btn-flat {
+         width: 100%;
+         margin: 0px!important;
+     }
+ }
+
+ /* Landscape phone to portrait tablet */
+
+ @media (max-width: 767px) {
+     h2 {
+         font-size: 32px;
+     }
+     .navigation-portrait .nav-menus-wrapper {
+         background-color: rgba(10, 10, 0, 0.8);
+     }
+     .nav-menu>li>.nav-dropdown, .navigation-portrait .nav-menu>li, .navigation-portrait .nav-menu>li:last-child {
+         border: 0;
+     }
+     .nav-dropdown>li>a {
+         background-color: rgba(10, 10, 0, 0.8);
+         color: #fff;
+     }
+     .form-row, .form-row .text-left {
+         text-align: center !important;
+     }
+     .nav-toggle::before {
+         background-color: #fff;
+         box-shadow: 0 0.5em 0 0 #fff, 0 1em 0 0 #fff;
+     }
+     #hero-section {
+         padding-top: 150px;
+         padding-bottom: 100px;
+     }
+     .hero-w-massage, .hero-social {
+         position: relative;
+         transform: rotate(-90deg);
+         transform: none;
+         left: 0;
+         top: 0;
+         text-align: center;
+     }
+     #hero-section {
+         text-align: center;
+     }
+     .hero-title {
+         font-size: 40px;
+     }
+     .hero-job {
+         font-size: 32px;
+     }
+     .hero-personal-img {
+         position: relative;
+         left: 0;
+         max-width: 300px;
+         margin: 20px 0;
+     }
+     .form-row>div {
+         padding-bottom: 30px;
+     }
+     .form-row>div:last-child {
+         padding-bottom: 0;
+     }
+     .form-row .pl-5 {
+         padding-left: 5px !important;
+         padding-right: 5px !important;
+     }
+     .contact-form {
+         padding-bottom: 40px;
+     }
+     .skill-item {
+         padding-bottom: 25px !important;
+     }
+     .skill-bars>div:last-child>div {
+         padding-bottom: 0 !important;
+     }
+     .wrap-button img {
+         margin-top: 20px;
+     }
+     .blog-item, .single-service-wrap {
+         margin-bottom: 30px;
+     }
+     .blog-content-wrap>div:last-child>div, #service-section .col-md-4:last-child>.single-service-wrap {
+         margin-bottom: 0;
+     }
+     .zig-zag {
+         display: none;
+     }
+     .comment-layout {
+         padding: 0 15px;
+     }
+     .about-info-wrap {
+         padding: 10px!important;
+         margin-top: 30px;
+     }
+     .about-info {
+         padding: 30px!important;
+     }
+ }
+
+ /* Portrait tablet to landscape and desktop */
+
+ @media (min-width: 768px) and (max-width: 991px) {
+     h2 {
+         font-size: 30px;
+     }
+     h4 {
+         font-size: 20px;
+     }
+     .hero-w-massage, .hero-social {
+         position: relative;
+         transform: rotate(-90deg);
+         transform: none;
+         left: 0;
+         top: 0;
+     }
+     .wrap-button img {
+         margin-top: 20px;
+     }
+     .about-bullet {
+         max-width: 100%;
+         flex: 100%;
+     }
+     .single-service-wrap h4 {
+         transition: all .4s ease-in-out;
+     }
+     .single-service-wrap:hover i {
+         transform: matrix(1, 0, 0, 1, 0, 280);
+     }
+     .single-service-wrap:hover h4 {
+         transform: matrix(1, 0, 0, 1, 0, 90);
+     }
+     .newsletter-row .col-md-10 {
+         margin-left: 30px !important;
+     }
+     .testimonial-item p {
+         font-size: 18px;
+     }
+     .testimonial-item .media {
+         margin-left: 0 !important;
+     }
+     .testimonial-item .media img {
+         padding-left: 0;
+     }
+     #skill-section .row> {
+         align-self: flex-start !important;
+     }
+     .zig-zag {
+         display: none;
+     }
+     .about-info-wrap {
+         padding: 10px!important;
+         margin-top: 30px;
+     }
+     .about-info {
+         padding: 30px!important;
+     }
+ }
+
+ @media (min-width: 992px) and (max-width: 1199px) {
+     .about-layout-two .zig-zag {
+         top: -180px;
+         left: -380px;
+     }
+     .skill-layout-two .zig-zag {
+         right: -440px;
+         top: -240px;
+     }
+     .skill-layout-two .zig-zag-item.item-three {
+         width: 900px;
+     }
+     .hero-w-massage, .hero-social {
+         position: relative;
+         transform: rotate(-90deg);
+         transform: none;
+         left: 0;
+         top: 0;
+     }
+     .about-bullet {
+         max-width: 100%;
+         flex: 100%;
+     }
+ }
+
+ /* Large desktop */
+
+ @media (min-width: 1200px) {}
