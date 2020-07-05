@@ -1,13 +1,4 @@
-/*
-======================================== 
-* Template Name: ONUC
-* Author: WPEqual
-* Version: 1.0
-* Created on: August 2019
-* Last Update: August 2019
-* Develop By: Zakir Hossain
-========================================
-*/
+
 
 /* 
     Table Of Content
@@ -570,7 +561,8 @@ textarea {
 
 #innar-hero {
     padding: 170px 0 170px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .8));
+    
+    background: url('../img/blue-outer-space-wallpapers-top-free-blue-outer-space-trippy-space-backgrounds-png-1920_1200.png') no-repeat;
 }
 
 #innar-hero h2 {
@@ -579,8 +571,10 @@ textarea {
 }
 
 #innar-hero .go-back {
-    color: #afb4b9;
+   color: rgb(6, 6, 78);
+   
 }
+
 
 /*
 ======================================== 
